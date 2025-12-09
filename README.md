@@ -10,12 +10,9 @@ This repository contains the code for our experiments and plots for our paper - 
 
 ## Replicating Code:
 1. All the Jupyter notebooks can be rerun to generate the corresponding plots and files.
-2. For the experiments involving large 3-d and 4-d tensors, we have .py scripts which can be run using the respective slurm scripts to replicate the plots in files.
-   The .slurm scripts can can be changed to .sh scripts and run with loss of some of the parallelization advanatages. One might have to load the necessary packages and modules before hand and comment out lines such as -
+2. For the experiments involving large 3-d and 4-d tensors, we have .py scripts which can be run using the respective slurm scripts (if using a slurm job scheduler) to replicate the plots in files.
+   Otherwise, the .slurm scripts can can be changed to .sh scripts locally and run with loss of some of the parallelization advantages.
 
-   **module .....**
-   
-   **conda .......**
 ## Real-world Experiemnts:
 
 The data for the candle video dataset can be found in the data file. The code for the analysis can be found in the [Candle Video Low rank Recovery.ipynb](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/blob/main/Jupyter_Notebooks/Candle%20Video%20Low%20rank%20Recovery.ipynb) Jupyter Notebook. 
