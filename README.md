@@ -10,8 +10,8 @@ This repository contains the code for our experiments and plots for our paper - 
 
 ## Replicating Code:
 1. All the Jupyter notebooks can be rerun to generate the corresponding plots and files.
-2. For the experiments involving large 3-d and 4-d tensors, we have .py scripts which can be run using the respective slurm scripts (if using a slurm job scheduler) to replicate the plots in files.
-   Otherwise, the .slurm scripts can can be changed to .sh scripts locally and run with loss of some of the parallelization advantages.
+2. For the experiments involving large 3-d and 4-d tensors, we have .py scripts which can be run using the respective slurm scripts (if using a slurm job scheduler) to replicate the plots in [files](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/tree/main/large_tensor_experiments).
+   Otherwise, the .slurm scripts can can be changed to .sh scripts locally and run as a shell script instead.
 
 ## Real-world Experiemnts:
 
