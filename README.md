@@ -14,7 +14,8 @@ This repository contains the code for our experiments and plots for our paper - 
    The .slurm scripts can can be changed to .sh scripts and run with loss of some of the parallelization advanatages. One might have to load the necessary packages and modules before hand and comment out lines such as -
 
    **module .....**
-   **load .......**
+   
+   **conda .......**
 ## Real-world Experiemnts:
 
 The data for the candle video dataset can be found in the data file. The code for the analysis can be found in the [Candle Video Low rank Recovery.ipynb](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/blob/main/Jupyter_Notebooks/Candle%20Video%20Low%20rank%20Recovery.ipynb) Jupyter Notebook. 
