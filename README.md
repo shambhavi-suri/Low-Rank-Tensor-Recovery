@@ -9,7 +9,7 @@ This repository contains the code for our experiments and plots for our paper - 
 * The [optimizing_trimming.py](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/blob/main/large_tensor_experiments/optimizing_trimming.py) file contains code for determining the best trimming parameter for both CP/HOSVD low rank tensors. This determines the best value by running multiple trials over random tensors of the given dimension.
 
 ## Replicating Code:
-1. All the Jupyter notebooks can be rerun to generate the corresponding plots and files.
+1. All the Jupyter notebooks can be rerun to generate the corresponding [plots and files](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/tree/main/Jupyter_Notebooks).
 2. For the experiments involving large 3-d and 4-d tensors, we have .py scripts which can be run using the respective slurm scripts (if using a slurm job scheduler) to replicate the plots in [files](https://github.com/shambhavi-suri/Low-Rank-Tensor-Recovery/tree/main/large_tensor_experiments).
    Otherwise, the .slurm scripts can can be changed to .sh scripts locally and run as a shell script instead.
 
